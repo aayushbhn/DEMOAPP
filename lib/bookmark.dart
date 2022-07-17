@@ -25,9 +25,15 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.teal,
+
+
+
+      ),
 
         body: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 100.0),
+          padding: const EdgeInsets.symmetric(vertical: 40.0),
           child: Container(
             height: 40,
             child: ListView.builder(
@@ -44,7 +50,7 @@ class _MyAppState extends State<MyApp> {
 
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.only(top:10.0, left: 2,right: 3),
+                    padding: const EdgeInsets.only(bottom: 0),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [

@@ -16,7 +16,7 @@ class _bottomnavState extends State<bottomnav> {
   PageController _pageController = PageController();
   int _currentIndex = 0;
   var children = [
-    secondpage(),
+    moviepage(),
     MyApp(),
     Homepage(),
   ];

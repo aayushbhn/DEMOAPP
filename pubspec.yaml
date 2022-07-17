@@ -28,6 +28,7 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   dependencies:
+  http: ^0.13.4
   custom_bottom_navigation_bar: ^0.0.1
   salomon_bottom_bar: ^3.3.1
   fancy_bottom_navigation: ^0.3.2
